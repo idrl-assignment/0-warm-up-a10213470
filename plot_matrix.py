@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 
 def generate_random_matrix(m, n):
-    temp_matrix=np.random.randint(0, 2, (m, n))
-    return(temp_matrix)
+    new_matrix=np.random.randint(0, 2, (m, n))
+    return(new_matrix)
 
 
 def save_matrix(matrix, file_name):
